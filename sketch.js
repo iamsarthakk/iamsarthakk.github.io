@@ -14,7 +14,7 @@ var dropzone;
 function setup() {
     bgcolor = color(200);
     
-    str1 = "Hello!<br/>I'm sarthak";
+    str1 = "Hello!<br/>I'm Sarthak";
     str2 = "";
     
     dropzone = select('#dropzone');
@@ -34,8 +34,8 @@ function setup() {
     bot.style('background-color',0);
     bot.style('color','white');
     bot.style('border-color',0);
-    //h.style('font-size','128px');
-    //h.child(h1);
+    h.style('font-size','128px');
+    h1.parent(bot);
 }
 
 function gotFile(file){
@@ -73,6 +73,7 @@ function mousePressed(){
 }
 
 function draw() {
+    h1.parent(bot);
     background(bgcolor);
     bot.mouseOver(changeBot1);
     bot.mouseOut(changeBot2);
