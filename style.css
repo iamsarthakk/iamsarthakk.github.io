@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  border: 0;
+}
+
+nav ul li a{
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  position:relative;
+  top: 30px;
+}
+
+nav ul li{
+  float: right;
+}
+
+img{
+  border-radius: 50%;
+  width: 15%;
+  position: absolute;
+  top: 130px;
+  left: 60%;
+}
+
+p{
+  color: white;
+  position: absolute;
+  top: 400px;
+  left:59%;
+}
