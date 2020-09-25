@@ -1,0 +1,35 @@
+{
+  "name": "iamsarthakk.github.io",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsarthakk/iamsarthakk.github.io.git"
+  },
+  "author": "Sarthak Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsarthakk/iamsarthakk.github.io/issues"
+  },
+  "homepage": "https://github.com/iamsarthakk/iamsarthakk.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.12.9"
+  }
+}

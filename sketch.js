@@ -1,8 +1,8 @@
-var x = 0;
-var y = 100;
-var s = 1;
-var str1,str2;
-var i=0;
+let x = 0;
+let y = 100;
+let s = 1;
+let str1,str2;
+let i=0;
 
 function setup() {
 
