@@ -9,10 +9,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <!-- Bootstrap CSS -->
+  <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-		type="text/javascript"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 
   <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
   <!-- <script language="javascript" src="libraries/p5.dom.js"></script> -->
@@ -24,14 +23,20 @@
 
   <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
-
-
-
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/navbar.css" type="text/css">
+  <!-- endbuild -->
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+		type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 
 
 </head>
@@ -39,14 +44,15 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="300">
 
-  <nav class="navbar navbar-dark navbar-expand-sm my-navbar-light">
+  <nav class="navbar navbar-dark navbar-expand-sm my-navbar-light fixed-top">
     <div class="container" style="width: 100%;">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
         <span class="navbar-toggler-icon"> </span> Menu
       </button>
 
-      <a class="navbar-brand ml-auto" href="index.html"><img src="images/1.jpg" height="30" width="85"></a>
+      <a class="navbar-brand ml-auto" href="index.html"><img src="images/logo/2.jpg" class="d-none d-md-block" height="30" width="85">
+      <img src="images/logo/1.jpg" class="d-md-none" height="30" width="85"></a>
 
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav ml-auto">
@@ -161,26 +167,77 @@
                               </div>
                         </div>
                 </div>
-        </section>
+  </section>
+<!--
+  <section id="fun" class="waste">
+    <div id="container">
+      <img src="images/horse.png"/>
+    <img src="https://d3ckw5pamzrtgd.cloudfront.net/assets/animations/care/animation.png" alt="My super animation"/>
+    </div>
+  </section> -->
+
+<section class="aboume " id="about-section">
 
 
   <div class="container">
-    <div class="row row-content align-items-center" id="about">
 
-        <div class="media">
-          <div class="d-none d-md-block">
-              <img class="d-flex mr-3 img-thumbnail align-self-center rounded-circle"
-                          src="images/profile.jpg" alt="Sarthak Kumar" height="250" width="250">
-          </div>
-          <div class="media-body col-12">
-            <h2>🖐️</h2>
-            <h2> Hi, I'm Sarthak Kumar - An IIT Kanpur Graduate and DevOps developer</h2>
-            <p> I do a bit of everything from software development, Data Science to Music and Anime and Reading </p>
+    <div class="row  d-flex align-items-center ">
+
+        <div class="col-md-6 col-lg-5 d-flex ">
+          <div class="img-about img d-flex align-items-stretch">
+
+              <div class="overlay back"></div>
+              <!-- <div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(images/about_cover.jpg);"></div> -->
+              <img src="images/profile.jpg" class="d-flex align-self-stretch img align-items-center " height="400" width="400"/>
+
           </div>
         </div>
 
+          <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+            <div class="row pb-3">
+              <div class="col-md-12 heading-section">
+                <h2 class="" style="font-size: 34px;">About Me</h2>
+                <h2>🖐️</h2>
+                <p> I'm an IIT Kanpur 2020 Graduate from Material Science and Engineering Department.
+                    I have the passion for different technologies. Currently I'm involved as a COnsultant in Genpact.</p>
+                <span class="subheading">Favorite Quotes</span>
+                <h5 class="" data-hover="Lol, Nothing is here">
+                  Hover your mouse here
+                </h5>
+              </div>
+            </div>
+
+            <div class="row">
+    						<div class="col-md-6">
+    							<div class="media block-6 services d-block ftco-animate mobile_middle">
+    								<a href="#">
+    									<img src="images/logo/3.jpg" alt=""
+    										style="width:200px;height:200px;border:0;" />
+    								</a>
+    								<div class="media-body">
+    									<h3 class="heading mb-3">Tech Expert</h3>
+    								</div>
+    							</div>
+    						</div>
+    						<div class="col-md-6">
+    							<div class="media block-6 services d-block ftco-animate mobile_middle">
+    								<a href="#">
+    									<img src="images/logo/4.jpg" alt=""
+    										style="width:200px;height:200px;border:0; margin-inline-start: 0px" />
+    								</a>
+    								<div class="media-body">
+    									<h3 class="heading mb-3">Hackerrank Certified</h3>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+            </div>
+
     </div>
   </div>
+
+</section>
 
 
   <div class="container">
@@ -385,7 +442,11 @@
 
     </div>
   </footer>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+
+  <!-- build:js js/main.js -->
+
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -400,5 +461,6 @@
    <script src="/node_modules/jquery/dist/jquery.js"></script>
    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
    <script src="js/scripts.js"></script>
+   <!-- endbuild -->
 </body>
 </html>

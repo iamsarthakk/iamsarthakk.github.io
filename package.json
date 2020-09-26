@@ -7,7 +7,14 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+
+
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin images/* --out-dir=dist/img ",
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "repository": {
     "type": "git",
@@ -20,8 +27,15 @@
   },
   "homepage": "https://github.com/iamsarthakk/iamsarthakk.github.io#readme",
   "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^2.6.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
