@@ -11,7 +11,7 @@
 }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #0075f6;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
@@ -561,7 +561,7 @@ owl-carousel {
   color: #000000;
 } */
 
-/* .aboutme .img {
+.aboutme .img {
   display: block;
   width: 100%;
   position: absolute;
@@ -574,7 +574,7 @@ owl-carousel {
   position: absolute;
 }
 
-.aboutme .img-about :after{
+.aboutme .img-about .overlay {
    width: 40%;
    height: 30%;
    display: block;
@@ -589,7 +589,7 @@ owl-carousel {
    margin-top: 40px;
    margin-left: -60px;
    opacity: 1;
-} */
+}
 
 /* .aboutme .img-about .img {
     background-size: cover;
