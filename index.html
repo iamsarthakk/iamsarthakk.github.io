@@ -27,37 +27,37 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="300">
 
-  <nav class="navbar navbar-dark navbar-expand-sm my-navbar-light fixed-top">
+  <nav class="navbar navbar-dark navbar-expand-lg my-navbar-light fixed-top">
     <div class="container" style="width: 100%;">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+      <button class="navbar-toggler js-fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#Navbar">
         <span class="navbar-toggler-icon"> </span> Menu
       </button>
 
-      <a class="navbar-brand ml-auto" href="index.html"><img src="images/logo/2.jpg" class="d-none d-md-block" height="30" width="85">
-      <img src="images/logo/1.jpg" class="d-md-none" height="30" width="85"></a>
+      <a class="navbar-brand ml-auto" href="index.html" data-hover="Lol, There is nothing is here"><img src="images/2.jpg" class="d-none d-lg-block f1" height="30" width="85">
+      <img src="images/1.jpg" class="d-lg-none f2" height="30" width="85"></a>
 
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item active">
-            <a class="nav-link" href="index.html" ><span class="fa fa-home fa-lg" id="home"> Home</span> </a>
+            <a class="nav-link" href="index.html" ><span > Home</span> </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="./about.html"><span class="fa fa-info fa-lg" id="about"> About</span> </a>
+            <a class="nav-link" href="#about-section"><span > About</span> </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="./Contact.html"><span class="fa fa-address-card fa-lg" id="contact"> Contact</span> </a>
+            <a class="nav-link" href="./Contact.html"><span > Contact</span> </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fa fa-list fa-lg" id="projects"> Projects</span> </a>
+            <a class="nav-link" href="#"><span > Projects</span> </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fa fa-comments fa-lg" id="reviews"> Reviews</span> </a>
+            <a class="nav-link" href="#"><span > Reviews</span> </a>
           </li>
 
         </ul>
@@ -72,32 +72,6 @@
     </div>
   </nav>
 
-  <!-- <header class="jumbotron">
-    <div class="container">
-      <div class="row row-header">
-
-        <div class="col-12 col-sm-6">
-          <h1>Sarthak Kumar </h1>
-          <p>I don't like brinjal</p>
-        </div>
-
-        <div class="col-12 col-sm align-self-center">
-          <img src="images/1.jpg" class="img-fluid">
-        </div>
-
-      </div>
-    </div>
-  </header> -->
-
-  <!-- <div class="container">
-    <div class="row">
-      <div>
-        <img src="profile.jpg"/>
-        <p>IIT Kanpur Graduate</p>
-      </div>
-    </div>
-  </div> -->
-
   <section id ="home-section" class="hero">
           <div class="home-slider owl-carousel">
                 <div class="slider-item">
@@ -105,11 +79,11 @@
                           <div class="container">
                                       <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
 
-                                           <div class="one-third order-md-last img" style="background-image:url(images/photo.jpg);">
+                                           <div class="one-third order-md-last img d-flex" style="background-image:url(images/photo2.jpg);">
                                                   <div class="overlay"></div>
                                             </div>
 
-                                             <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '10%' }">
+                                             <div class="one-forth d-flex  align-items-center ftco-animate">
 
                                                 <div class="text">
 
@@ -120,7 +94,7 @@
   							                                          Kumar</span>
                                                        </h1>
                                                        <h2 class="mb-4"></h2>
-                                                      <p> I do a bit of everything from software development, Data Science to Music and Anime and Reading </p>
+                                                      <p>  </p>
 
                                                 </div>
 
@@ -133,16 +107,16 @@
                         <div class="slider-item">
                               <div class="overlay"></div>
                               <div class="container">
-                                    <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                                    <div class="row d-flex no-gutters slider-text align-items-end justify-content-end">
                                       <div class="one-third order-md-last img" style="background-image:url(images/developer.jpg);">
                                                     <div class="overlay"></div>
                                       </div>
-                                      <div class="one-forth d-flex align-items-center ftco-animate"
+                                      <div class="one-forth d-flex align-items-center"
                                           data-scrollax=" properties: { translateY: '70%' }">
                                           <div class="text">
                                             <h1 class="mb-4 mt-3">I'm a <span>DevOps <br/>Engineer</span></h1>
                                             <p>
-                                              Yes, I'm
+
                                             </p>
                                           </div>
                                         </div>
@@ -151,41 +125,39 @@
                         </div>
                 </div>
   </section>
-<!--
-  <section id="fun" class="waste">
-    <div id="container">
-      <img src="images/horse.png"/>
-    <img src="https://d3ckw5pamzrtgd.cloudfront.net/assets/animations/care/animation.png" alt="My super animation"/>
-    </div>
-  </section> -->
 
-<section class="aboume " id="about-section">
+
+<section class="aboume mt-1" id="about-section">
 
 
   <div class="container">
 
     <div class="row  d-flex align-items-center ">
 
-        <div class="col-md-6 col-lg-5 d-flex ">
-          <div class="img-about img d-flex align-items-stretch">
+        <div class="col-md-6 col-lg-5 d-flex justify-content-center">
+          <div class="img-about img d-flex align-items-stretch ">
 
               <div class="overlay back"></div>
               <!-- <div class="img d-flex align-self-stretch align-items-center"
 							style="background-image:url(images/about_cover.jpg);"></div> -->
-              <img src="images/profile.jpg" class="d-flex align-self-stretch img align-items-center " height="400" width="400"/>
+              <img src="images/profile.jpg" class="d-flex  img align-items-center rounded-circle " height="300" width="300"/>
 
           </div>
         </div>
 
           <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+
             <div class="row pb-3">
+              <div class="col-12">
+                <h2 style="font-size: 34px;">About Me</h2>
+              </div>
               <div class="col-md-12 heading-section">
-                <h2 class="" style="font-size: 34px;">About Me</h2>
-                <h2>🖐️</h2>
-                <p> I'm an IIT Kanpur 2020 Graduate from Material Science and Engineering Department.
-                    I have the passion for different technologies. Currently I'm involved as a COnsultant in Genpact.</p>
+
+                <h5>👋 Hi I'm Sarthak!</h5>
+                <p> I'm a DevOps Consultant at Genpact. This past year, I graduated from the IIT Kanpur with a degree in Material Science and Engineering and lot of knowledge and experience in Technology and Computer Science 🤘
+                  </p>
                 <span class="subheading">Favorite Quotes</span>
-                <h5 class="" data-hover="Lol, Nothing is here">
+                <h5 class="test" data-hover="Lol, There is nothing is here" style="color: royalblue;">
                   Hover your mouse here
                 </h5>
               </div>
@@ -195,22 +167,22 @@
     						<div class="col-md-6">
     							<div class="media block-6 services d-block ftco-animate mobile_middle">
     								<a href="#">
-    									<img src="images/logo/3.jpg" alt=""
+    									<img src="images/3.jpg" alt=""
     										style="width:200px;height:200px;border:0;" />
     								</a>
     								<div class="media-body">
-    									<h3 class="heading mb-3">Tech Expert</h3>
+    									<h3 class="heading mb-3">Bockchain Developer Intern (CSIR-CDRI)</h3>
     								</div>
     							</div>
     						</div>
     						<div class="col-md-6">
     							<div class="media block-6 services d-block ftco-animate mobile_middle">
     								<a href="#">
-    									<img src="images/logo/4.jpg" alt=""
+    									<img src="images/4.jpg" alt=""
     										style="width:200px;height:200px;border:0; margin-inline-start: 0px" />
     								</a>
     								<div class="media-body">
-    									<h3 class="heading mb-3">Hackerrank Certified</h3>
+    									<h3 class="heading mb-3">Hackerrank Certified Problem Solever</h3>
     								</div>
     							</div>
     						</div>
@@ -426,12 +398,21 @@
     </div>
   </footer>
 
+  <!-- <div id="my-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg>
+	</div> -->
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 
    <!-- build:js js/main.js -->
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="js/jquery.stellar.min.js"></script>
    <script src="js/scrollax.min.js"></script>
    <script src="/node_modules/jquery/dist/jquery.js"></script>
    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>

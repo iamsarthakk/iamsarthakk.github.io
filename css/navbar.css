@@ -1,17 +1,10 @@
-.navbar-dark {
-  background-color: #512DA8;
-}
-
-/* .logo{
-  content:url("images/logo/2.jpg");
-} */
-
 .my-navbar-light {
-  background: transparent !important;
-  /* position: absolute;
+  /* background: #000 !important; */
+  background: transparent;
+  position: absolute;
   top: 0;
   left: 0;
-  right: 0; */
+  right: 0;
   z-index: 3;
 }
 
@@ -20,6 +13,8 @@
     background: #000000 !important;
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 15px;
@@ -33,18 +28,27 @@
   padding: 0;
 }
 
-/* .my-navbar-light .navbar-brand {
+.my-navbar-light .navbar-brand {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
+}
+/* .my-navbar-light .navabr-brand:hover {
+  font-size: 0;
+}
+
+.my-navbar-light .navabr-brand:before {
+  font-size: 20px;
+  color: #000;
+  content: attr(data-hover);
 } */
 
 .my-navbar-light .navbar-nav > .nav-item > .nav-link {
-  font-size: 16px;
+  font-size: 19px;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000000;
+  color: #000;
   font-weight: 400;
   opacity: 1 !important;
 }
@@ -126,8 +130,8 @@
 .my-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
   border: 1px solid #a0f669;
   background: #a0f669 !important;
-}
-*/
+} */
+
 
 .my-navbar-light .navbar-nav > .nav-item.active >a {
   background: transparent;
@@ -135,12 +139,12 @@
   color: #0075f6;
 }
 
-/* .my-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
+.my-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
-} */
+}
 
 @media (max-width: 991.98px) {
   .my-navbar-light .navbar-nav > .nav-item.active > a {
@@ -165,7 +169,7 @@
   outline: none !important;
 }
 
-/* .my-navbar-light.scrolled {
+.my-navbar-light.scrolled {
   position: fixed;
   right: 0;
   left: 0;
@@ -187,11 +191,11 @@
 
 .my-navbar-light.scrolled .nav-item.active > a {
   color: #0075f6 !important;
-} */
+}
 
 
 
-/* .my-navbar-light.scrolled .nav-item.cta > a {
+.my-navbar-light.scrolled .nav-item.cta > a {
   color: #fff !important;
   background: #0075f6;
   border: none !important;
@@ -253,4 +257,4 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 24px;
-} */
+}

@@ -1,4 +1,19 @@
- // $.Scrollax();
+
+$( window ).scroll(function() {
+	if($(window).scrollTop()>500){
+  	$( ".my-navbar-light" ).css( "position", "fixed" );
+		$( ".my-navbar-light" ).css( "background", "rgba(255,255,255)" );
+		$( ".my-navbar-light" ).css( "box-shadow", "0 0 10px 0 rgb(0, 0, 0,0.1)" );
+	}
+	else{
+		$( ".my-navbar-light" ).css( "position", "absolute" );
+		$( ".my-navbar-light" ).css( "box-shadow", "0 0 10px 0 rgb(255, 255,255,0)" );
+		$( ".my-navbar-light" ).css( "background", "transparent" );
+
+	}
+});
+
+
 
 var carousel = function() {
 		$('.home-slider').owlCarousel({
@@ -26,29 +41,4 @@ var carousel = function() {
 	};
 	carousel();
 
-// var imgHeight = 360;
-// var imgwidth = 192, imgheight=144;
-// var numImgs = 7;
-// var i=0,j=0;
-// var cont = 0;
-// var img = $('#container').find('img');
-//
-// var animation = setInterval( moveSprite,100);
-
-// function moveSprite(){
-//     // img.css('margin-top', -1 * (cont*imgHeight));
-//     if(j%3){
-//       img.css('margin-left', -1 * (i*imgwdth));
-//       j=0;
-//       i=i+1;
-//     }
-//     else {
-//       img.css('margin-top', -1 * (j*imgheight));
-//       j=j+1;
-//       i=i+1;
-//     }
-//     if(i == numImgs){
-//         i=0;
-//         j=0;
-//     }
-// }
+	

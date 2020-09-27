@@ -4,6 +4,7 @@
   "description": "My Website",
   "main": "index.html",
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
