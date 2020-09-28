@@ -1,4 +1,3 @@
-
 $( window ).scroll(function() {
 	if($(window).scrollTop()>500){
   	$( ".my-navbar-light" ).css( "position", "fixed" );
@@ -9,7 +8,6 @@ $( window ).scroll(function() {
 		$( ".my-navbar-light" ).css( "position", "absolute" );
 		$( ".my-navbar-light" ).css( "box-shadow", "0 0 10px 0 rgb(255, 255,255,0)" );
 		$( ".my-navbar-light" ).css( "background", "transparent" );
-
 	}
 });
 
@@ -41,4 +39,17 @@ var carousel = function() {
 	};
 	carousel();
 
-	
+	$(document).ready(function(){
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+	});
+});
