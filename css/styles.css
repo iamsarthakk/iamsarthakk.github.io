@@ -27,7 +27,12 @@
   margin: 0px;
   color: #0f0f0f;
 }
+@media (max-width: 768px){
+  .firstfooter{
+      text-align: center;
+  }
 
+}
 
 nav,
 section {
@@ -345,6 +350,39 @@ owl-carousel {
   content: attr(data-hover);
 }
 
+.bg-none {
+  box-sizing: border-box;
+  transition-timing-function: ease-in-out;
+  transition-duration: 80ms;
+  transition-property: all;
+      width: 92%;
+    background-color: transparent;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-color: #d5dce3;
+    outline-style: none;
+    border-style: solid;
+    appearance: none;
+}
+
+.formb {
+  height: 50px;
+    line-height: 40px;
+    min-width: 110px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+        vertical-align: middle;
+}
+
+/* .formb :hover{
+  background-color: linear-gradient(150deg, rgb(85, 51, 255) 15%, rgb(5, 213, 255) 70%, rgb(166, 255, 203) 94%);
+} */
+.a1 :hover{
+    background-image: linear-gradient(150deg, rgb(85, 51, 255) 15%, rgb(5, 213, 255) 70%, rgb(166, 255, 203) 94%);
+}
 #scroll {
   position: fixed;
   right: 10px;
