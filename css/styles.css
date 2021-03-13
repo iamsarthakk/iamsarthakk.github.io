@@ -78,13 +78,6 @@ owl-carousel {
 }
 
 
-/* @media (max-width: 1199.98px) {
-  .owl-carousel .home-slider .slider-item {
-    background-position: center center !important;
-  }
-} */
-
-
 .owl-carousel.home-slider .slider-item .overlay {
   position: absolute;
   top: 0;
@@ -114,33 +107,14 @@ owl-carousel {
   position: relative;
   height: 650px;
   z-index: -1;
-  /* -webkit-box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16);
-  box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16); */
 }
 
 
-/* .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #000000;
-  opacity: 0;
-} */
+
 
 
 @media (max-width: 760px) {
   .owl-carousel.home-slider .slider-item .slider-text .one-third {
-    /* background-size: cover; */
-    /* #sample{
-    background: url(image-data.jpg);
-    background-position: -100px -100px;
-    width: 200px;
-    height: 200px;
-} */
-/* background-image:url(images/photo2.jpg); */
     background-position: -150px 0px;
     width: 100%;
     z-index: 0;
@@ -194,42 +168,7 @@ owl-carousel {
   width: 100%;
 }
 
-/*
-@media (min-width: 992px) {
-  .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: 0;
-    max-width: 50%;
-    padding-left: 45px;
-    padding-right: 3em;
-  }
-}
-*/
 
-
-/*.owl-carousel.home-slider .slider-item .slider-text .icon-video {
-  position: absolute;
-  top: 120px;
-  right: 70px;
-  content: "";
-  width: 70px;
-  height: 70px;
-  background: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-.owl-carousel.home-slider .slider-item .slider-text .icon-video span {
-  font-size: 20px;
-  color: #000000;
-}
-*/
 
 
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
@@ -309,37 +248,7 @@ owl-carousel {
    margin-left: -60px;
    opacity: 1;
 }
-
-/* .aboutme .img-about .img {
-    background-size: cover;
-  display: block;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-  -webkit-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-  -moz-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-  box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-} */
-
-/* .overlay.back {
-  position: relative;
-  height: 750px;
-  z-index:0;
-} */
-
-/* .overlay.back:after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 25%; */
-  /* background-image: linear-gradient(150deg, rgb(85, 51, 255) 15%, rgb(5, 213, 255) 70%, rgb(166, 255, 203) 94%); */
-  /* background: #77b7ff;
-  opacity: 1;
-  content: "";
-  z-index: -1;
-} */
+ 
 
 .test:hover {
   font-size: 0;
@@ -377,9 +286,7 @@ owl-carousel {
         vertical-align: middle;
 }
 
-/* .formb :hover{
-  background-color: linear-gradient(150deg, rgb(85, 51, 255) 15%, rgb(5, 213, 255) 70%, rgb(166, 255, 203) 94%);
-} */
+
 .a1 :hover{
     background-image: linear-gradient(150deg, rgb(85, 51, 255) 15%, rgb(5, 213, 255) 70%, rgb(166, 255, 203) 94%);
 }
