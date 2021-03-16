@@ -26,7 +26,7 @@
 </head>
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="300">
+<body data-spy="scroll" data-target=".navbar" data-offset="300" style="background-color: ;">
 
   <nav class="navbar navbar-dark navbar-expand-lg my-navbar-light fixed-top">
     <div class="container" style="width: 100%;">
@@ -51,6 +51,10 @@
 
           <li class="nav-item">
             <a class="nav-link" href="#project-section"><span > Projects</span> </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skill-section"><span > Skills</span> </a>
           </li>
 
           <li class="nav-item">
@@ -168,7 +172,7 @@
               </div>
            </div>
 
-           <div class="bg-panel"></div>
+           <!-- <div class="bg-panel"></div> -->
 
           </div>
 
@@ -255,58 +259,46 @@
               
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-project">
-                        <img src="./images/EHR.png" alt="Electronic Health Record Keeping System ">
-                        <!-- <h1>
-                          <a  style="color: black" class="" href="https://www.youtube.com/watch?v=uj0LatueCRk">EHR</a>
-                        </h1>
-                        <a href="https://github.com/iamsarthakk/Electronic-Health-Record-Keeping-System-on-Blockchain">Code</a> -->
+                        <img src="./images/EHR.png" alt="Electronic Health Record Keeping System" class="image__img">
+
+                        <div class="image__overlay image__overlay--primary">
+                          <a  href="https://www.youtube.com/watch?v=uj0LatueCRk"  class="image__title" style="text-decoration: none; color: #fff;">EHR</a>
+                          <p class="image__description">
+                            <a href="https://github.com/iamsarthakk/Electronic-Health-Record-Keeping-System-on-Blockchain" style="text-decoration: none;">Code</a>
+                          </p>
+                        </div>
+                        
                     
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-project">
                     <img src="./images/NEFlappy.png" alt="Neuroevolutionary Flappy Bird ">
-                    <!-- <h1>
-                      <a  style="color: black" class="" href="https://iamsarthakk.github.io/Machine-Learning/JavaScript/examples/neuroevolution-flappybird">Neuroevolutionary Flappy Bird</a>
-                    </h1>
-                    <a href="https://github.com/iamsarthakk/Machine-Learning/tree/master/JavaScript/examples/neuroevolution-flappybird">Code</a> -->
+                    <div class="image__overlay image__overlay--primary">
+                      <a  href="https://iamsarthakk.github.io/Machine-Learning/JavaScript/examples/neuroevolution-flappybird"  class="image__title" style="text-decoration: none; color: #fff;">Neuroevolutionary Flappy Bird</a>
+                      <p class="image__description">
+                        <a href="https://github.com/iamsarthakk/Machine-Learning/tree/master/JavaScript/examples/neuroevolution-flappybird" style="text-decoration: none; ">Code</a>
+                      </p>
+                    </div>
+                   
                  </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo3.png" alt="Brand-3 ">
+                    <div class="single-project">
+                        <img src="./images/ESteering.png" alt="Evolutionary Steering">
+                        <div class="image__overlay image__overlay--primary">
+                          <a  href="https://iamsarthakk.github.io/Machine-Learning/JavaScript/examples/Evolutionary-steering/"  class="image__title" style="text-decoration: none; color: #fff;">Smart Steering Agents</a>
+                          <p class="image__description">
+                            <a href="https://github.com/iamsarthakk/Machine-Learning/tree/master/JavaScript/examples/Evolutionary-steering" style="text-decoration: none; ">Code</a>
+                          </p>
+                        </div>
+                    <!-- <h1>
+                    <a  style="color: black" class="" href="https://iamsarthakk.github.io/Machine-Learning/JavaScript/examples/Evolutionary-steering/">Neuroevolutionary Flappy Bird</a>
+                    </h1>
+                    <a href="https://github.com/iamsarthakk/Machine-Learning/tree/master/JavaScript/examples/Evolutionary-steering">Code</a> -->
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo4.png" alt="Brand-4">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo5.png" alt="Brand-5 ">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo6.png" alt="Brand-6">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo7.png" alt="Brand-7 ">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo8.png" alt="Brand-8 ">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-brand">
-                        <img src="./img/brands/logo9.png" alt="Brand-9">
-                    </div>
-                </div>
+                
             </div>
         </div>
        
@@ -315,7 +307,7 @@
   </div>
 </section>
 
-<section class="services-area">
+<section class="services-area" id="skill-section">
   <div class="container">
     <div class="row">
       <div class="text-center services-title col-12">
