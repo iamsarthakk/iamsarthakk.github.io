@@ -438,7 +438,7 @@ owl-carousel {
 }
 
 .image__img {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
