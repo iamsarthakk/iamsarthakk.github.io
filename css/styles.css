@@ -423,7 +423,7 @@ owl-carousel {
   border: 1px solid #201f1f17;
   text-align: center;
   /* padding: 1.8rem 0rem; */
-  margin: 9rem 0;
+  margin: 5rem 0;
   /* width: 180px;
   height: 100px; */
   cursor: pointer;
@@ -434,12 +434,16 @@ owl-carousel {
 .single-project>img{
   position: relative;
   width: 100%;
-  
+  height: 100%;
+  /* width: 320px; /* You can set the dimensions to whatever you want */
+  height: 200px; */
+  object-fit: cover;
 }
 
 .image__img {
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 .image__overlay {
