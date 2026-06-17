@@ -1,0 +1,1 @@
+require('util').isRegExp = (v) => v instanceof RegExp;
